@@ -8,7 +8,7 @@ Live Link: [my site](https://ignorantlonenetwork.ashaikh23.repl.co/#nasa-great-s
 
 NASA International Space Apps Challenge 2023 Be a Space Geologist
 
-![Image](earthwatch.jpg)
+![Image](Screenshot 2023-10-07 at 11.10.49 PM.png)
 
 ## Key Features
 
