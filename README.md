@@ -6,6 +6,8 @@
 
 Live Link (REPL.IT): https://ignorantlonenetwork.ashaikh23.repl.co/#nasa-great-section
 
+SlideDeck: https://drive.google.com/file/d/1JjJXwqMTFWi8MMtL_KD9fnZVU_b_CEa-/view?usp=sharing
+
 NASA International Space Apps Challenge 2023 Be a Space Geologist
 
 ## Key Features
