@@ -8,8 +8,6 @@ Live Link: [my site](https://ignorantlonenetwork.ashaikh23.repl.co/#nasa-great-s
 
 NASA International Space Apps Challenge 2023 Be a Space Geologist
 
-![Image](Screenshot 2023-10-07 at 11.10.49 PM.png)
-
 ## Key Features
 
 1. **Astronomy Picture of the Day (APOD)**: EarthWatch provides daily updates of captivating astronomical images along with detailed explanations, fostering curiosity and engagement among geologists.
