@@ -4,6 +4,8 @@
 
 ![EarthWatch Banner](https://sti.nasa.gov/images/nasa-logo.png)
 
+Live Link (REPL.IT): https://ignorantlonenetwork.ashaikh23.repl.co/#nasa-great-section
+
 ## Key Features
 
 1. **Astronomy Picture of the Day (APOD)**: EarthWatch provides daily updates of captivating astronomical images along with detailed explanations, fostering curiosity and engagement among geologists.
