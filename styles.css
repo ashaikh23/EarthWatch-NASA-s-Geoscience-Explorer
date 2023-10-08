@@ -1,0 +1,158 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: #FFA500;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Menu bar styles */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FFA500;
+}
+
+/* Main container styles */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #000;
+    border: 2px solid #FFA500;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings styles */
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #FFA500;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Buttons styles */
+button {
+    background-color: #FFA500;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFA500;
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #456;
+}
+
+/* Detail styles */
+#material-details, #process-details, #feature-details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #000;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#nasa-logo {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add margin to separate the logo from text */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
