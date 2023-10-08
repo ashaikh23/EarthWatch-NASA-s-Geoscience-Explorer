@@ -63,3 +63,18 @@ EarthWatch is a comprehensive web application designed to unlock the potential o
 - Provide a user-friendly and informative platform for accessing NASA resources.
 - Foster curiosity and interest in space sciences among geologists and students.
 - Highlight the importance of NASA's contributions to Earth and space sciences.
+
+- Here are the resources used in the EarthWatch project:
+
+NASA Earth Data: EarthWatch utilized various NASA Earth observation datasets and APIs, including Near Earth Object Web Service (NeoWs) and the Astronomy Picture of the Day (APOD) API.
+
+NASA API Documentation: The project referred to NASA's official API documentation to understand how to access and use their data.
+
+Leaflet Library: Leaflet, an open-source JavaScript library, was used to integrate interactive maps into the project.
+
+GitHub: GitHub was used for version control and project management.
+
+
+Visual Studio Code: Visual Studio Code served as the primary code editor for developing the project.
+
+HTML, CSS, JavaScript: These standard web development technologies were used to create the project's frontend.
