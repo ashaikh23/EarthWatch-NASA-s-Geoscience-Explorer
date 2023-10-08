@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EarthWatch: NASA's Geoscience Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include the Leaflet library for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>EarthWatch</h1>
+        <p>NASA's Geoscience Explorer</p>
+        <img src="https://sti.nasa.gov/images/nasa-logo.png" alt="NASA Logo" id="nasa-logo">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#apod-section">APOD</a></li>
+            <li><a href="#neows-section">NeoWs</a></li>
+            <li><a href="#features-section">Features</a></li>
+            <li><a href="#nasa-great-section">Why NASA is Great</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Section for Astronomy Picture of the Day (APOD) -->
+        <section id="apod-section">
+            <h2>Astronomy Picture of the Day (APOD)</h2>
+            <div id="apod-container">
+                <!-- The APOD content will be displayed here -->
+                <img src="" alt="APOD" id="apod-image">
+                <h3 id="apod-title"></h3>
+                <p id="apod-explanation"></p>
+            </div>
+        </section>
+
+        <!-- Section for Near Earth Object Web Service (NeoWs) -->
+        <section id="neows-section">
+            <h2>Near Earth Object Web Service (NeoWs)</h2>
+            <div id="neows-container">
+                <!-- The NeoWs content will be displayed here -->
+                <div id="neows-info">
+                    <p>Total Near Earth Objects: <span id="neows-count"></span></p>
+                    <p>Closest Object: <span id="neows-closest"></span></p>
+                </div>
+                <table id="neows-table">
+                    <!-- NEOs table will be displayed here -->
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Diameter (meters)</th>
+                            <th>Approach Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- NEOs data rows will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section about Features -->
+        <section id="features-section">
+            <h2>Features</h2>
+            <p>
+                The Near Earth Object Web Service (NeoWs) section provides information about near-Earth objects.
+                You can search for objects based on their approach date and view details such as their name,
+                diameter, and approach date. This valuable data helps us understand and monitor objects that
+                come close to our planet.
+            </p>
+        </section>
+
+        <!-- Section about Why NASA is Great -->
+        <section id="nasa-great-section">
+            <h2>Why NASA is Great</h2>
+            <p>
+                NASA, the National Aeronautics and Space Administration, is great because of its outstanding
+                contributions to space exploration, scientific discovery, and technological advancement. NASA
+                has enabled us to explore the cosmos, land on the moon, send spacecraft to other planets,
+                and expand our understanding of the universe. Its missions have inspired generations and
+                continue to push the boundaries of what is possible in space exploration.
+            </p>
+        </section>
+    </main>
+    <script src="app.js"></script>
+
+    <footer>
+        <p>Author: Aymaan Shaikh</p>
+    </footer>
+</body>
+</html>
