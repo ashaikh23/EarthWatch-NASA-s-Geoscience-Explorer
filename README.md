@@ -7,6 +7,7 @@
 Live Link: [my site](https://ignorantlonenetwork.ashaikh23.repl.co/#nasa-great-section) | [SlideDeck](https://drive.google.com/file/d/1JjJXwqMTFWi8MMtL_KD9fnZVU_b_CEa-/view?usp=sharing)
 
 NASA International Space Apps Challenge 2023 Be a Space Geologist
+<img width="595" alt="Screenshot 2023-10-17 at 10 22 14 PM" src="https://github.com/ashaikh23/EarthWatch-NASA-s-Geoscience-Explorer/assets/34725789/ecbb0951-675d-43f9-9f7d-da7bc7896654">
 
 ## Key Features
 
